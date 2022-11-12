@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(./img/background.png);
+}
+header {
+    background-color: #34b1b2;
+    text-align: center;
+    border-top: 4px solid #2f9696;
+    border-bottom: 4px solid #2f9696;
+    margin-top: 55px;
+}
+header img {
+    width: 200px;
+}
+header ul li {
+    display: inline-block;
+    color: white;
+    margin: 19px;
+    font-size: 23px;
+}
+header ul li:hover {
+    color: #34b1b2;
+    cursor: pointer;
+}
+main {
+    width: 100%;
+    /* background-color: black; */
+}
+.first {
+    color: #65898c; 
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+h1 {
+    font-size: 40px;
+    margin: 33px 0;
+}
+.first p {
+    margin: 16px 0;
+    font-size: 19px;
+}
+.todays-special {
+    background-color: #d3eeee;
+    width: 51%;
+    text-align: center;
+    color: #66898C;
+    box-sizing: border-box;
+    padding: 40px 20px 15px 20px;
+    height: 850px;
+    margin-left: 210px;
+    display: inline-block;
+}
+.todays-title span {
+    color: #2f9696;
+}
+.todays-title h2 {
+    font-size: 55px;
+    margin: 46px 0;
+}
+.Le-crusty-fish h3 {
+    font-size: 28px;
+    margin: 28px 0;
+}
+.Le-crusty-fish img {
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+}
+.Le-crusty-fish p {
+    margin: 16px 0;
+    text-align: left;
+}
+.Le-multifish p {
+    margin: 16px 0 30px 0;
+    text-align: left;
+}
+
+button {
+    background-color: #2f9696;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    margin-top: 56px;
+    float: right;
+}
+button:hover {
+    background-color: #d3eeee;
+    color: #d3eeee;
+}
+.Le-multifish h3 {
+    font-size: 28px;
+    margin: 28px 0;
+}
+.Le-multifish img {
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+}
+.Le-crusty-fish {
+    float: left;
+    width: 48%;
+}
+.Le-multifish {
+    width: 48%;
+    float: right;
+}
+aside {
+    background-color: #34B1B2;
+    width: 311px;
+    border: 4px solid #2f9696;
+    float: right;
+    margin-right: 190px;
+    height: 670px;
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+aside img {
+    width: 40%;
+    float: right;
+    /* padding-top: -20px; */
+    /* padding-right: -20px; */
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+footer img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+.a-blue {
+    color: blue;
+}
+aside span , h4 {
+    color: whitesmoke;
+}
+aside h4 {
+    margin-top: 20px;
+}
