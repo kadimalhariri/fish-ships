@@ -91,6 +91,7 @@ button {
 button:hover {
     background-color: #d3eeee;
     color: #d3eeee;
+    cursor: pointer;
 }
 .Le-multifish h3 {
     font-size: 28px;
