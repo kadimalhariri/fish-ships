@@ -151,6 +151,11 @@ footer {
 footer img {
     width: 50px;
     margin-bottom: 20px;
+    transition: 0.8s linear;
+}
+footer img:hover {
+    transform: rotate(50deg);
+    
 }
 a {
     text-decoration: none;
